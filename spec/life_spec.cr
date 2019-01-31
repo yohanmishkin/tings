@@ -4,7 +4,7 @@ require "../src/project"
 
 describe Life do
   it "is made of projects" do
-    project1 = Project.new
+    project1 = Project.new "projectNameA"
 
     life = Life.new [project1]
 
@@ -12,8 +12,8 @@ describe Life do
   end
 
   it "can add a project" do
-    project1 = Project.new
-    project2 = Project.new
+    project1 = Project.new "projectNameA"
+    project2 = Project.new "projectNameB"
     life = Life.new [project1]
 
     life.add(project2)
