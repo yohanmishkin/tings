@@ -4,11 +4,11 @@ TODO: Write a description here
 
 ## Installation
 
-TODO: Write installation instructions here
+1. Build binary `crystal build -o ./tings src/tings.cr`
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Run `./tings`
 
 ## Development
 
