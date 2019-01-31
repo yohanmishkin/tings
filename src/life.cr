@@ -6,4 +6,8 @@ class Life
   def projects
     @projects
   end
+
+  def add(project)
+    Life.new @projects.push(project)
+  end
 end
